@@ -6,7 +6,7 @@ from gemini_api import GeminiAPI
 gemini_api = GeminiAPI()
 
 def main():
-    st.title("Chatbot with Gemini API")
+    st.title("Chatbot")
     
     user_input = st.text_input("You:", "")
     
